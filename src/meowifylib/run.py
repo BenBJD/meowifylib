@@ -53,7 +53,7 @@ def meowify_song(song_path, sample_choices, checkpoint_path):
         waveform, sr = torchaudio.load(f"{song_path}.wav")
         vocals, accompaniment = extract_vocals(waveform, sr)
 
-        # Create output directory if it doesn't exist
+        # Create an output directory if it doesn't exist
         os.makedirs("output", exist_ok=True)
 
         # Save vocals and accompaniment to temporary directory
@@ -72,7 +72,6 @@ def meowify_song(song_path, sample_choices, checkpoint_path):
             song_dataset, batch_size=1, shuffle=False, num_workers=3
         )
         original_samples_length = song_dataset.num_samples
-        track_name = song_dataset.name
         padding = song_dataset.padding
 
         # Generate predictions
