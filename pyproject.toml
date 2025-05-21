@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meowifylib"
+version = "0.1.0"
+description = "A library for audio processing and vocal-to-MIDI conversion"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    { name = "Ben Davison", email = "ben@bjdavison.co.uk" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "torchaudio>=2.0.0",
+    "lightning>=2.0.0",
+    "librosa>=0.10.0",
+    "numpy>=1.20.0",
+    "scikit-learn>=1.0.0",
+    "matplotlib>=3.5.0",
+    "mido>=1.2.0",
+    "hmmlearn>=0.2.0",
+    "mir_eval>=0.7.0",
+    "soundfile>=0.10.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/BenBJD/meowifylib"
+"Bug Tracker" = "https://github.com/BenBJD/meowifylib/issues"

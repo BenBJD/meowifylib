@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/meowifylib/__init__.py
+src/meowifylib/constants.py
+src/meowifylib/eval.py
+src/meowifylib/neural.py
+src/meowifylib/processing.py
+src/meowifylib/separate.py
+src/meowifylib.egg-info/PKG-INFO
+src/meowifylib.egg-info/SOURCES.txt
+src/meowifylib.egg-info/dependency_links.txt
+src/meowifylib.egg-info/requires.txt
+src/meowifylib.egg-info/top_level.txt
