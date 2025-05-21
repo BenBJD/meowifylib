@@ -27,7 +27,6 @@ dependencies = [
     "mido>=1.2.0",
     "hmmlearn>=0.2.0",
     "mir_eval>=0.7.0",
-    "soundfile>=0.10.0",
 ]
 
 [project.urls]
