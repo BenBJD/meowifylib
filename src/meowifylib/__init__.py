@@ -27,3 +27,4 @@ from meowifylib.processing import (
 )
 from meowifylib.separate import extract_vocals
 from meowifylib.eval import evaluate_transcription, calculate_weighted_accuracy
+from meowify.run import meowify_song
