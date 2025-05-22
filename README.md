@@ -2,8 +2,8 @@
 
 A Python library for audio processing and vocal-to-MIDI conversion with Meowify.
 
-[!IMPORTANT]
-A pretrained checkpoint is not yet available.
+> [!IMPORTANT]
+> A pretrained checkpoint is not yet available.
 
 ## Description
 MeowifyLib provides the code behind Meowify. Features include:
@@ -25,8 +25,8 @@ pip install git+https://github.com/BenBJD/meowifylib
 
 ## Usage
 
-[!NOTE]
-Very incomplete
+> [!NOTE]
+> Very incomplete
 
 ### Run Meowify pipeline on a track
 
